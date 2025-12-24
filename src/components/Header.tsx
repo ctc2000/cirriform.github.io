@@ -1,4 +1,3 @@
-import { Zap } from 'lucide-react';
 import { Button } from './ui/button';
 
 export function Header() {
