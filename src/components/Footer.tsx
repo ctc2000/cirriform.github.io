@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="bg-gradient-to-br from-purple-500 to-blue-400 p-2 rounded-lg">
-                <Zap className="w-6 h-6 text-white" />
+                <img src="/logo.svg" alt="Cirriform Power Logo" className="h-6" />
               </div>
               <div>
                 <div className="text-gray-900">CIRRIFORM POWER</div>
