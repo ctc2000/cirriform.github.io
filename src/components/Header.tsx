@@ -1,4 +1,5 @@
 import { Button } from './ui/button';
+import Logo from '@/assets/Logo.svg';
 
 export function Header() {
   return (
@@ -6,7 +7,7 @@ export function Header() {
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="bg-gradient-to-br from-purple-500 to-blue-400 p-2 rounded-lg">
-            <img src="/Logo.png" alt="Cirriform Power" className="w-6 h-6" />
+            <img src={Logo} alt="Cirriform Power" className="w-6 h-6" />
           </div>
           <div>
             <div className="text-gray-900">CIRRIFORM POWER</div>
