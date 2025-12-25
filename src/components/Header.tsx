@@ -5,9 +5,11 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-purple-200/50 shadow-sm">
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="bg-gradient-to-br from-purple-500 to-blue-400 p-2 rounded-lg">
-            <img src="/Logo.svg" alt="Cirriform Power" className="w-6 h-6" />
-          </div>
+          <img 
+            src="/Logo.svg" 
+            alt="Cirriform Power" 
+            className="w-10 h-10 brightness-0 invert" 
+          />
           <div>
             <div className="text-gray-900">CIRRIFORM POWER</div>
             <div className="text-xs text-gray-600">Renewable Energy Design & Consulting</div>
